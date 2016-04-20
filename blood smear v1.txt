@@ -1,9 +1,0 @@
-//run("Threshold...");
-run("16-bit");
-setAutoThreshold("Default");
-//run("Threshold...");
-setOption("BlackBackground", false);
-run("Convert to Mask");
-run("Fill Holes");
-run("Watershed");
-run("Analyze Particles...", "size=100-Infinity pixel show=Outlines display exclude clear summarize in_situ");
